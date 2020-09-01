@@ -61,6 +61,8 @@ A: Yes. In addtion, users with admin priviliges can also `sudo`.
 
 <img align="left" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png">
 
+
+
 #####Q: How to add and remove users?
 
 A: Control Panel / Admin / Add Users
