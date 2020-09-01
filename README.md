@@ -12,16 +12,18 @@ This repo is for the teaching team of IIMP6010 - 2020 Fall, it contains:
 
 __Table Of Content__
 
-- [Cloud Based Setup]()
+- [Cloud Based Setup](#jupyter)
   - [Step-by-step tutorial for setting up a JupyterHub Cloud](#server)
-  - [Administration Q&A]()
-- [Local Setup]()
-  - [Linux(Ubuntu)]()
-  - [MacOS]()
-  - [Windows 10]()
-- [iimp6010.py]()
+  - [Administration Q&A](#admin)
+- [Local Setup](#local)
+  - [Linux(Ubuntu)](#ubuntu)
+  - [MacOS](#mac)
+  - [Windows 10](#win)
+- [iimp6010.py](#code)
 
 
+
+<a name="jupyter">
 
 ## Cloud Based Setup
 
@@ -76,6 +78,8 @@ Here we document how to setup and administrate JupyterHub for the course. The _S
 
 
 
+<a name="admin">
+
 ### Administration Q&A
 
 
@@ -114,11 +118,15 @@ A: !!TODO
 
 
 
+<a name="local">
+
 ## Local Setup
 
 It is recommanded for students to use the JupyterHub, but they can also setup locally.
 
 
+
+<a name="ubuntu">
 
 ### Linux (Ubuntu)
 
@@ -157,6 +165,8 @@ It is recommanded for students to use the JupyterHub, but they can also setup lo
 
 
 
+<a name="mac">
+
 ### MacOS 
 
 1. Install [Anaconda](https://www.anaconda.com/) using the [graphical installer](https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.pkg).
@@ -175,11 +185,15 @@ It is recommanded for students to use the JupyterHub, but they can also setup lo
 
 
 
+<a name="win">
+
 ### Windows 10
 
 1. Install [Anaconda](https://www.anaconda.com/) using the [graphical installer](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe).
 
 
+
+<a name="code">
 
 ## `iimp6010.py` 
 
