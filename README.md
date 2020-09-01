@@ -59,7 +59,8 @@ How to setup and administrate JupyterHub for the course
 
 A: Yes. In addtion, users with admin priviliges can also `sudo`.
 
-<img align="left" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png"/>
+<div><img align="left" style="display:block;" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png"/></div>
+
 
 ##### Q: How to add and remove users?
 
@@ -77,7 +78,7 @@ sudo -E conda install -c conda-forge networkx
 
 
 
-#####Q: How to change passwords?
+##### Q: How to change passwords?
 
 A: Delete and recrate the user. Delete the user won't do anything to the files. 
 
