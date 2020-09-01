@@ -10,7 +10,7 @@ This repo is for the teaching team of IIMP6010 - 2020 Fall, it contains:
 
 
 
-__Table Of Content__
+## Table Of Content
 
 - [Cloud Based Setup](#jupyter)
   - [Step-by-step tutorial for setting up a JupyterHub Cloud](#server)
