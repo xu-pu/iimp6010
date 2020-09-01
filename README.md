@@ -51,22 +51,62 @@ How to setup and administrate JupyterHub for the course
 
 
 
-### Administrate the JupyterHub Cloud
+### Administration Q&A
 
 
+
+##### Q: Can I open terminal in JupyterHub?
+
+A: Yes. In addtion, users with admin priviliges can also `sudo`.
+
+<img align="left" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png">
+
+#####Q: How to add and remove users?
+
+A: Control Panel / Admin / Add Users
+
+
+
+#####Q: How to install packages?
+
+A: Open terminal and type the following command. [offical guide](https://tljh.jupyter.org/en/latest/howto/env/user-environment.html)
+
+```shell
+sudo -E conda install -c conda-forge networkx
+```
+
+
+
+#####Q: How to change passwords?
+
+A: Delete and recrate the user. Delete the user won't do anything to the files. 
 
 
 
 ## Local Setup
 
+It is recommanded for students to use the JupyterHub, but they can also setup locally.
 
 
-## `iimp6010` python module
 
-The iimp6010 package contains code utilities for this course.
+### Linux (Ubuntu)
 
-Its primary features are
 
-- Generate, save and load 'cities'
+
+###MacOS 
+
+
+
+### Windows 10
+
+
+
+## `iimp6010.py` 
+
+`iimp6010.py` contains code utilities for this course. Its primary features are
+
+- Generate, save, load  and visualize 'cities'
 - Visualization and animation utilities
+- Course specific utilities
 
+It will be preinstalled globally and read-only on the JupyterHub, students can also download it if they want to have a local setup.
