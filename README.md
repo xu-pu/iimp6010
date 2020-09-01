@@ -35,7 +35,9 @@ How to setup and administrate JupyterHub for the course
 
 7. Sign-in with the user name `teach` and a safe password. __The password is set to the one you entered on your first login.__
 
-8. Register a domain name, and point it to the server IP. I registered [iimp6010.io](https://iimp6010.io) and [iimp6010.com](https://iimp6010.com) on [GoDaddy](godaddy.com).
+8. Register a domain name, and point it to the server IP. 
+
+   For example, I registered [iimp6010.io](https://iimp6010.io) and [iimp6010.com](https://iimp6010.com) on [GoDaddy](godaddy.com).
 
 9. Enable your domain names and HTTPS using the following commands. 
 
@@ -59,8 +61,7 @@ How to setup and administrate JupyterHub for the course
 
 A: Yes. In addtion, users with admin priviliges can also `sudo`.
 
-<div><img align="left" style="display:block;" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png"/></div>
-
+![open-terminal](https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png)
 
 ##### Q: How to add and remove users?
 
