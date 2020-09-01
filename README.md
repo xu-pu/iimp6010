@@ -1,10 +1,18 @@
 # IIMP6010 TA Material
 
+This repo is for the teaching team of IIMP6010 - 2020 Fall, it contains: 
+
+- Development environment setup tutorials for the IIMP6010 course. 
+  - Cloud based JupyterHub (Recommanded)
+  - Local setup for Ubuntu/MacOS/Windows10 (Optional)
+- `iimp6010.py` python module and its documentation 
+- Tutorials for python, `networkx` and other knowlege required by the course.
+
 
 
 ## Cloud Based Setup
 
-How to setup and administrate JupyterHub for the course
+Here we document how to setup and administrate JupyterHub for the course. The _Step-by-step tutorial for setting up a JupyterHub Cloud_ is only for those who want to setup their own server, skip it if you just want to use [iimp6010.io](https://iimp6010.io).
 
 
 
@@ -85,6 +93,12 @@ A: Delete and recrate the user. Delete the user won't do anything to the files.
 
 
 
+##### Q: How to send file to every student?
+
+A: !!TODO
+
+
+
 ## Local Setup
 
 It is recommanded for students to use the JupyterHub, but they can also setup locally.
@@ -93,13 +107,62 @@ It is recommanded for students to use the JupyterHub, but they can also setup lo
 
 ### Linux (Ubuntu)
 
+1. Download the [installer](https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh), save it to your home directory.
+
+2. Install [Anaconda](https://www.anaconda.com/) using the following commands
+
+   ```shell
+   cd ~/
+   chmod +x Anaconda3-2020.07-Linux-x86_64.sh
+   ./Anaconda3-2020.07-Linux-x86_64.sh
+   ```
+
+   During installation:
+
+   1. Type `yes` to the terms and conditions
+
+   2. Press `Enter` to use default location when asking for installation location
+
+   3. Type `yes` when the following promt appears
+
+      ```
+      Do you wish the installer to initialize Ananconda3
+      by running conda init? [yes|no]
+      ```
+
+3. Open terminal, type `python`, check the python version is 3.8.3.
+
+4. Install packages used by our course. Open terminal and type:
+
+   ```shell
+   conda install -c conda-forge networkx pandas matplotlib
+   ```
+
+5. type `spyder` in terminal. It is our recommended development environment.
+
 
 
 ### MacOS 
 
+1. Install [Anaconda](https://www.anaconda.com/) using the [graphical installer](https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.pkg).
+
+2. Install packages used by our course. Open Terminal and type:
+
+   ```shell
+   conda install -c conda-forge networkx pandas matplotlib
+   ```
+
+3. Open the `Anaconda Navigator` App.
+
+4. Click and open `Spyder`, It is our recommended development environment.
+
+5. Write code.
+
 
 
 ### Windows 10
+
+1. Install [Anaconda](https://www.anaconda.com/) using the [graphical installer](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe).
 
 
 
