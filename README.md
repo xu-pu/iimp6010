@@ -10,11 +10,26 @@ This repo is for the teaching team of IIMP6010 - 2020 Fall, it contains:
 
 
 
+__Table Of Content__
+
+- [Cloud Based Setup]()
+  - [Step-by-step tutorial for setting up a JupyterHub Cloud](#server)
+  - [Administration Q&A]()
+- [Local Setup]()
+  - [Linux(Ubuntu)]()
+  - [MacOS]()
+  - [Windows 10]()
+- [iimp6010.py]()
+
+
+
 ## Cloud Based Setup
 
 Here we document how to setup and administrate JupyterHub for the course. The _Step-by-step tutorial for setting up a JupyterHub Cloud_ is only for those who want to setup their own server, skip it if you just want to use [iimp6010.io](https://iimp6010.io).
 
 
+
+<a name="server">
 
 ### Step-by-step tutorial for setting up a JupyterHub Cloud
 
