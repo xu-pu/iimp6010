@@ -59,17 +59,15 @@ How to setup and administrate JupyterHub for the course
 
 A: Yes. In addtion, users with admin priviliges can also `sudo`.
 
-<img align="left" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png">
+<img align="left" src="https://tljh.jupyter.org/en/latest/_images/new-terminal-button2.png"/>
 
-
-
-#####Q: How to add and remove users?
+##### Q: How to add and remove users?
 
 A: Control Panel / Admin / Add Users
 
 
 
-#####Q: How to install packages?
+##### Q: How to install packages?
 
 A: Open terminal and type the following command. [offical guide](https://tljh.jupyter.org/en/latest/howto/env/user-environment.html)
 
@@ -95,7 +93,7 @@ It is recommanded for students to use the JupyterHub, but they can also setup lo
 
 
 
-###MacOS 
+### MacOS 
 
 
 
