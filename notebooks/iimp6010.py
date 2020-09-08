@@ -174,6 +174,10 @@ def draw_city_on_axes(city,ax):
     nx.draw_networkx_nodes(city.graph, pos=city.node_positions, node_size=10, node_color='black', alpha=0.2, ax=ax)
     nx.draw_networkx_labels(city.graph, pos=label_positions, labels=node_labels, font_size=8, font_color='black', horizontalalignment='center', verticalalignment='center', ax=ax)
     nx.draw_networkx_edges(city.graph, pos=city.node_positions, edge_color='blue', alpha=0.2, ax=ax)
+    bbox = {'ec':[1,1,1,0], 'fc':[1,1,1,0]}
+    # hack to label edges over line (rather than breaking up line)
+    edge_labels = nx.get_edge_attributes(city.graph,'weight')
+    nx.draw_networkx_edge_labels(city.graph, pos=city.node_positions, edge_labels=edge_labels, font_size=5)
 
 
 def visualize_path_in_city(city, path):
