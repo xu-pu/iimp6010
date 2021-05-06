@@ -70,6 +70,7 @@ Here we document how to setup and administrate JupyterHub for the course. The _S
    sudo tljh-config set https.enabled true
    sudo tljh-config set https.letsencrypt.email you@example.com
    sudo tljh-config add-item https.letsencrypt.domains your_domain_name.com
+   sudo tljh-config reload proxy
    ```
 
    More details can be found in the [official totorial](https://tljh.jupyter.org/en/latest/howto/admin/https.html#howto-admin-https).
